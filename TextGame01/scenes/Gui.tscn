@@ -1,4 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://dh8cf23m7l1hx"]
+[gd_scene load_steps=6 format=3 uid="uid://dh8cf23m7l1hx"]
+
+[ext_resource type="Script" path="res://scenes/FstBtnHandler.gd" id="1_2acr4"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_28jx8"]
 content_margin_left = 10.0
@@ -58,8 +60,9 @@ offset_bottom = 63.0
 scale = Vector2(1.002, 1)
 theme = SubResource("Theme_1xcpn")
 text = "Test Button 01"
+script = ExtResource("1_2acr4")
 
-[node name="Label" type="Label" parent="Control"]
+[node name="MainTextArea" type="Label" parent="Control"]
 custom_minimum_size = Vector2(600, 400)
 layout_mode = 1
 offset_left = 212.0
@@ -67,3 +70,5 @@ offset_top = 103.0
 offset_right = 1098.0
 offset_bottom = 625.0
 theme = SubResource("Theme_3oshs")
+
+[connection signal="pressed" from="Control/Button" to="Control/Button" method="_on_pressed"]
