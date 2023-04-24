@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://dh8cf23m7l1hx"]
+[gd_scene load_steps=7 format=3 uid="uid://dh8cf23m7l1hx"]
 
 [ext_resource type="Script" path="res://scenes/FstBtnHandler.gd" id="1_2acr4"]
+[ext_resource type="Script" path="res://scenes/BtnQuit.gd" id="2_3u51p"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_28jx8"]
 content_margin_left = 10.0
@@ -51,7 +52,7 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="Button" type="Button" parent="Control"]
+[node name="Btn01" type="Button" parent="Control"]
 layout_mode = 0
 offset_left = 24.0
 offset_top = 28.0
@@ -62,6 +63,18 @@ theme = SubResource("Theme_1xcpn")
 text = "Test Button 01"
 script = ExtResource("1_2acr4")
 
+[node name="BtnQuit" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 421.0
+offset_right = 180.0
+offset_bottom = 456.0
+scale = Vector2(1.002, 1)
+tooltip_text = "Leave game instantly"
+theme = SubResource("Theme_1xcpn")
+text = "Quit Game"
+script = ExtResource("2_3u51p")
+
 [node name="MainTextArea" type="Label" parent="Control"]
 custom_minimum_size = Vector2(600, 400)
 layout_mode = 1
@@ -71,4 +84,5 @@ offset_right = 1098.0
 offset_bottom = 625.0
 theme = SubResource("Theme_3oshs")
 
-[connection signal="pressed" from="Control/Button" to="Control/Button" method="_on_pressed"]
+[connection signal="pressed" from="Control/Btn01" to="Control/Btn01" method="_on_pressed"]
+[connection signal="pressed" from="Control/BtnQuit" to="Control/BtnQuit" method="_on_pressed"]

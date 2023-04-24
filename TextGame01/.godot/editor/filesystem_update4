@@ -1,4 +1,3 @@
-res://scenes/Main.tscn
-res://scripts/USER_INCLUDES.gd
+res://scenes/BtnQuit.gd
 res://scenes/Gui.tscn
-res://scenes/FstBtnHandler.gd
+res://scenes/Main.tscn
