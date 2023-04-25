@@ -5,3 +5,6 @@ res://Player.gd
 res://scripts/USER_INCLUDES.gd
 res://scenes/player.tscn
 res://scenes/GameRunner.gd
+res://scenes/FstBtnHandler.gd
+res://scenes/BtnQuit.gd
+res://scenes/Gui.gd
