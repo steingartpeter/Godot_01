@@ -1,1 +1,7 @@
+res://scenes/Main.tscn
+res://scenes/BtnTheme.tres
 res://scenes/Gui.tscn
+res://Player.gd
+res://scripts/USER_INCLUDES.gd
+res://scenes/player.tscn
+res://scenes/GameRunner.gd

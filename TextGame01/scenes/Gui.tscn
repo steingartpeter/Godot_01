@@ -34,10 +34,10 @@ offset_bottom = 40.0
 
 [node name="Btn01" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 24.0
-offset_top = 28.0
-offset_right = 174.0
-offset_bottom = 63.0
+offset_left = 33.0
+offset_top = 44.0
+offset_right = 183.0
+offset_bottom = 79.0
 scale = Vector2(1.002, 1)
 theme = ExtResource("1_hxdja")
 text = "Test Button 01"
@@ -56,10 +56,11 @@ text = "Quit Game"
 script = ExtResource("2_3u51p")
 
 [node name="Btn02" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 33.0
 offset_top = 104.0
-offset_right = 181.0
-offset_bottom = 137.0
+offset_right = 183.0
+offset_bottom = 141.0
 theme = ExtResource("1_hxdja")
 text = "Teszt Button 2"
 
