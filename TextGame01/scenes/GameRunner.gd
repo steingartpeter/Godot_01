@@ -17,7 +17,8 @@ func _ready() -> void:
 	var msg:String = "Greetings %s" % self.plyr.playerName
 	msg += "\nYour age is: %s" % str(self.plyr.playerAge)
 	msg += "\n=============================================\n"
-	msg += """You unfortunatley suffered a accident on the sea, and now you are shipwrecked. Your ship sunk at %f longitude, and %f lattitude.
+	msg += """You unfortunatley suffered a accident on the sea, and now you are shipwrecked. 
+	Your ship sunk at %f longitude, and %f lattitude.
 	=============================================
 	Your chances are slight to avoid death.
 	You need to create some kind of raft, or send some kind of bottle message to call someone for your aid.
