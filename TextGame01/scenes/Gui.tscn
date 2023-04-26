@@ -1,36 +1,33 @@
-[gd_scene load_steps=5 format=3 uid="uid://dh8cf23m7l1hx"]
+[gd_scene load_steps=7 format=3 uid="uid://dh8cf23m7l1hx"]
 
 [ext_resource type="Theme" uid="uid://cdjng3k2s4c34" path="res://scenes/BtnTheme.tres" id="1_hxdja"]
 [ext_resource type="Script" path="res://scenes/Gui.gd" id="1_om02s"]
+[ext_resource type="Texture2D" uid="uid://ced57gd46kxxh" path="res://scenes/raw_wood_plank.jpg" id="3_yq4uf"]
+[ext_resource type="FontFile" uid="uid://cgqxqp1e2sq0e" path="res://resources/fonts/Prosto.tres" id="4_1ra3m"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5iuli"]
-content_margin_left = 5.0
-content_margin_top = 5.0
-content_margin_right = 5.0
-content_margin_bottom = 5.0
-bg_color = Color(0.211765, 0.301961, 0.27451, 1)
-border_width_left = 2
-border_width_top = 2
-border_width_right = 2
-border_width_bottom = 2
-border_color = Color(0.12549, 0.266667, 0.203922, 1)
-corner_radius_top_left = 4
-corner_radius_top_right = 4
-corner_radius_bottom_right = 4
-corner_radius_bottom_left = 4
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tln7l"]
+content_margin_left = 3.0
+content_margin_top = 3.0
+content_margin_right = 3.0
+content_margin_bottom = 3.0
+texture = ExtResource("3_yq4uf")
+modulate_color = Color(0.537255, 0.313726, 0.266667, 1)
 
 [sub_resource type="Theme" id="Theme_3oshs"]
 default_font_size = 12
-Label/styles/normal = SubResource("StyleBoxFlat_5iuli")
+Label/styles/normal = SubResource("StyleBoxTexture_tln7l")
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_om02s")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 8
 
 [node name="Btn01" type="Button" parent="Control"]
 layout_mode = 0
@@ -63,13 +60,17 @@ theme = ExtResource("1_hxdja")
 text = "Teszt Button 2"
 
 [node name="MainTextArea" type="Label" parent="Control"]
-custom_minimum_size = Vector2(600, 400)
+texture_filter = 1
+custom_minimum_size = Vector2(800, 600)
 layout_mode = 1
 offset_left = 212.0
 offset_top = 103.0
 offset_right = 1098.0
 offset_bottom = 625.0
 theme = SubResource("Theme_3oshs")
+theme_override_fonts/font = ExtResource("4_1ra3m")
+theme_override_font_sizes/font_size = 20
+text = "Test text"
 
 [connection signal="pressed" from="Control/Btn01" to="." method="_on_btn_01_pressed"]
 [connection signal="pressed" from="Control/BtnQuit" to="." method="_on_btn_quit_pressed"]

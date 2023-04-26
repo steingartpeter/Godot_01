@@ -1,6 +1,4 @@
-res://scenes/Main.tscn
-res://scenes/BtnTheme.tres
 res://scenes/Gui.tscn
+res://scenes/BtnTheme.tres
+res://scenes/Main.tscn
 res://scenes/player.tscn
-res://scenes/Gui.gd
-res://scenes/GameRunner.gd

@@ -1,19 +1,46 @@
 2a60927148abd1d33b818b535e306557
-::res://::1682439209
-icon.svg::CompressedTexture2D::778207918450294895::1682439047::1682439047::1::::<><>::
-::res://addons/::1682439046
-::res://addons/godot-git-plugin/::1682439046
-git_plugin.gdextension::GDExtension::-1::1682439046::0::1::::<><>::
-plugin.cfg::TextFile::-1::1682439046::0::1::::<><>::
-THIRDPARTY.md::TextFile::-1::1682439046::0::1::::<><>::
-::res://addons/godot-git-plugin/linux/::1682439046
-::res://addons/godot-git-plugin/macos/::1682439046
-::res://addons/godot-git-plugin/win64/::1682439047
-::res://scenes/::1682439047
-BtnQuit.gd::GDScript::-1::1682439047::0::1::::<>Button<>::
-BtnTheme.tres::Theme::5002788821110032453::1682439047::0::1::::<><>::
-FstBtnHandler.gd::GDScript::-1::1682439047::0::1::::<>Button<>::
-Gui.tscn::PackedScene::7718840247357987909::1682439047::0::1::::<><>::res://scenes/FstBtnHandler.gd<>uid://cdjng3k2s4c34<>res://scenes/BtnQuit.gd
-Main.tscn::PackedScene::3632470675003825362::1682439047::0::1::::<><>::uid://dh8cf23m7l1hx
-::res://scripts/::1682439047
-USER_INCLUDES.gd::GDScript::-1::1682439047::0::1::::UserIncludes<>Node<>::
+::res://::1682519504
+icon.svg::CompressedTexture2D::778207918450294895::1682353181::1682358619::1::::<><>::
+Player.gd::GDScript::-1::1682445787::0::1::::Player<>Node<>::
+::res://assets/::1682353219
+::res://resources/::1682519504
+::res://resources/fonts/::1682520185
+raw_wood_plank.jpg::CompressedTexture2D::6675470993814045909::1682520178::1682520185::1::::<><>::
+::res://resources/fonts/cardinal/::1682519504
+Cardinal-Alternate.ttf::FontFile::6275292212423681440::1682519501::1682519504::1::::<><>::
+Cardinal.ttf::FontFile::3810972503310155073::1682519501::1682519504::1::::<><>::
+::res://resources/fonts/english_towne/::1682519511
+EnglishTowne.ttf::FontFile::4114081325343662231::1682519510::1682519511::1::::<><>::
+::res://resources/fonts/sketch_gothic_school/::1682519515
+Sketch Gothic School.ttf::FontFile::7509860864916150267::1682519514::1682519515::1::::<><>::
+::res://resources/fonts/tt_prosto_sans/::1682519847
+TT Prosto Sans Trial Black Italic.otf::FontFile::1455417678623375885::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Black.otf::FontFile::5621939192194668120::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Bold Italic.otf::FontFile::4596488202619999750::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Bold.otf::FontFile::7736861952889799706::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Condensed Black Italic.otf::FontFile::7519398252213181062::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Condensed Black.otf::FontFile::8846730462900137977::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Condensed Bold Italic.otf::FontFile::3172514381391299490::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Condensed Bold.otf::FontFile::4463677921776670980::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Condensed Italic.otf::FontFile::3732835932385663776::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Condensed Light Italic.otf::FontFile::5034988257171786524::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Condensed Light.otf::FontFile::119012168003762928::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Condensed Regular.otf::FontFile::5513929086636696048::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Condensed Thin Italic.otf::FontFile::8361090814031442834::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Condensed Thin.otf::FontFile::8410466728312794976::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Italic.otf::FontFile::8366789951914730803::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Light Italic.otf::FontFile::4057683471354611478::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Light.otf::FontFile::8494140206626892100::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Regular.otf::FontFile::5397549197114782321::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Thin Italic.otf::FontFile::4807263932716751768::1682519847::1682519847::1::::<><>::
+TT Prosto Sans Trial Thin.otf::FontFile::5902864171071442365::1682519847::1682519847::1::::<><>::
+::res://scenes/::1682520315
+BtnTheme.tres::Theme::5002788821110032453::1682519575::0::1::::<><>::
+GameRunner.gd::GDScript::-1::1682449334::0::1::::Game<>Node2D<>::
+Gui.gd::GDScript::-1::1682447253::0::1::::<>Node2D<>::
+Gui.tscn::PackedScene::7718840247357987909::1682519897::0::1::::<><>::uid://cdjng3k2s4c34<>res://scenes/Gui.gd<>uid://bxwd3wdr65ps
+Main.tscn::PackedScene::3632470675003825362::1682519897::0::1::::<><>::uid://dh8cf23m7l1hx<>res://scenes/GameRunner.gd
+player.tscn::PackedScene::4589042431934269158::1682519897::0::1::::<><>::res://Player.gd
+raw_wood_plank.jpg::CompressedTexture2D::5061668851522449809::1682520315::1682520315::1::::<><>::
+::res://scripts/::1682445787
+USER_INCLUDES.gd::GDScript::-1::1682445787::0::1::::UserIncludes<>Node<>::

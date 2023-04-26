@@ -1,0 +1,33 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://bx2tpo0uahq0m"
+path="res://.godot/imported/TT Prosto Sans Trial Light Italic.otf-32362f639553a6acf0ae1d011f64ff01.fontdata"
+
+[deps]
+
+source_file="res://resources/fonts/tt_prosto_sans/TT Prosto Sans Trial Light Italic.otf"
+dest_files=["res://.godot/imported/TT Prosto Sans Trial Light Italic.otf-32362f639553a6acf0ae1d011f64ff01.fontdata"]
+
+[params]
+
+Rendering=null
+antialiasing=1
+generate_mipmaps=false
+multichannel_signed_distance_field=false
+msdf_pixel_range=8
+msdf_size=48
+allow_system_fallback=true
+force_autohinter=false
+hinting=1
+subpixel_positioning=1
+oversampling=0.0
+Fallbacks=null
+fallbacks=[]
+Compress=null
+compress=true
+preload=[]
+language_support={}
+script_support={}
+opentype_features={}
